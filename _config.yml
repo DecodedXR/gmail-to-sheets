@@ -1,0 +1,4 @@
+title: Free Gmail to Sheets
+description: Extract data from Gmail into Google Sheets automatically, one row per email, with fields pulled from the email body. Free Apps Script.
+plugins:
+  - jekyll-sitemap
