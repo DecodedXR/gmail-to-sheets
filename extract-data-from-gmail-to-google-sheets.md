@@ -22,10 +22,11 @@ Copying those fields into a spreadsheet by hand gets old fast. Email-parser serv
 
 ## Step 1: Name your columns
 
-Create a Google Sheet and type the column names in row 1. **The names are the setup:**
+Create a Google Sheet and type the column names in row 1. **The names are the setup.** For the email above, the sheet ends up like this:
 
 | Date | Subject | Order number | Customer name | Email | Total |
 |---|---|---|---|---|---|
+| *(filled in)* 10/19/2026 9:14 | New order | A-1042 | Ana López | ana@example.com | $1,249.50 |
 
 - `Date`, `From`, `To`, `Subject`, `Body` and `Link` are filled from the email itself.
 - Every other name is looked up in the email's text: for `Order number`, the script finds the line starting "Order number:" and takes what follows. It also handles "Order number - A-1042", and emails laid out as tables where the value is on the next line.
