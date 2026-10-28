@@ -9,8 +9,8 @@ image: https://decodedxr.github.io/gmail-to-sheets/assets/cover.png
 
 Email parsers such as [Parseur](https://parseur.com/) and [Mailparser](https://mailparser.io/) take emails like "New order #A-1042, Total: $1,249.50" and turn them into spreadsheet rows. They work well, and they're priced per email, every month. From their pricing pages (checked October 2026):
 
-- **Parseur:** free for 20 emails a month. Paid plans start at $49 a month for 100.
-- **Mailparser:** from $29.95 a month for 250 emails.
+- **Parseur:** free for 20 pages a month. Paid plans start at $49 a month for 100 pages. An email is one page, and each page of a PDF attachment counts too.
+- **Mailparser:** $29.95 a month for 250 emails ($24.95 a month billed yearly), after a 30-day trial.
 
 If your emails arrive in Gmail and you want the data in Google Sheets, a script in your own Google account can do the same job with no per-email cost.
 
@@ -19,9 +19,9 @@ If your emails arrive in Gmail and you want the data in Google Sheets, a script 
 | | Parseur / Mailparser | Gmail to Sheets Pro |
 |---|---|---|
 | Price | Monthly, by email volume | $15 once |
-| Emails per month | Capped by plan | No cap beyond Gmail's own script quotas |
+| Emails per month | Capped by plan | No monthly cap, within Gmail's script quotas. A large backlog is imported over a few runs |
 | Where emails come from | A forwarding address (any email provider) | Your Gmail, using a Gmail search |
-| How fields are found | Templates or AI, set up per layout | Your column names: `Order number` finds "Order number: A-1042"; `/regex/` columns for anything else |
+| How fields are found | Parsing rules or templates per layout (Parseur also offers AI) | Your column names: `Order number` finds "Order number: A-1042"; `/regex/` columns for anything else |
 | Attachments | Parsed for data (e.g. PDF tables) | Saved to a Drive folder, with links in the row |
 | Several email types | Separate parsers or mailboxes | One tab per Gmail search |
 | How often | Near real time | Every 5, 10, 15, 30 or 60 minutes |
