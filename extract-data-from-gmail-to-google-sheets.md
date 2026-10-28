@@ -69,6 +69,8 @@ When a value isn't on a "Label: value" line, write a regular expression between 
 
 **How do I stop it?** **📧 Gmail to Sheets → Turn Off**.
 
+**Can it save attachments, or watch several searches?** Not the free script. [Gmail to Sheets Pro](https://decodedpc.gumroad.com/l/faaflm) ($15 one-time) gives each tab its own search, [saves attachments to Drive](save-gmail-attachments-to-google-drive.html), imports later replies, and runs every 5 to 60 minutes.
+
 **What about CSV attachments?** Use [Gmail CSV to Sheets](https://github.com/DecodedXR/gmail-csv-to-sheets), which imports the attachment's rows.
 
 ---

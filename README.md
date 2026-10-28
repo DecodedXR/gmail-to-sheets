@@ -33,6 +33,10 @@ Matching emails already in your inbox are imported right away (up to 100 convers
 - Text that looks like a formula (starting with `=`, `+`, `-` or `@`) is stored as plain text.
 - To re-import an email, remove the `sheets-imported` label from it in Gmail.
 
+## Need more?
+
+[Gmail to Sheets Pro](https://decodedpc.gumroad.com/l/faaflm) ($15, one-time) adds a different Gmail search per tab, attachments saved to Drive with links in the row, replies imported too (each message exactly once), imports every 5 to 60 minutes, and optional mark-as-read or archive.
+
 ## More free Google tools
 
 - [All free Google Sheets scripts](https://github.com/DecodedXR/free-google-sheets-scripts): mail merge, PDF merge, reminders, Sheets to Calendar, CSV import, timestamps, row cleanup, time zones.

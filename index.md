@@ -13,7 +13,10 @@ Extract data from Gmail into Google Sheets automatically, one row per email, wit
 ## Guides
 
 - [How to extract data from Gmail into Google Sheets automatically](extract-data-from-gmail-to-google-sheets.html)
+- [Save Gmail attachments to Google Drive automatically](save-gmail-attachments-to-google-drive.html)
 
 ## Get it
 
 The script and full instructions are on GitHub: [DecodedXR/gmail-to-sheets](https://github.com/DecodedXR/gmail-to-sheets). It's MIT licensed and free.
+
+Need several searches, attachments saved to Drive, or imports every 5 minutes? [Gmail to Sheets Pro](https://decodedpc.gumroad.com/l/faaflm) adds them for a one-time $15.
