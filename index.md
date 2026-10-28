@@ -14,6 +14,7 @@ Extract data from Gmail into Google Sheets automatically, one row per email, wit
 
 - [How to extract data from Gmail into Google Sheets automatically](extract-data-from-gmail-to-google-sheets.html)
 - [Save Gmail attachments to Google Drive automatically](save-gmail-attachments-to-google-drive.html)
+- [An email parser alternative (Parseur, Mailparser) without a subscription](email-parser-alternative-google-sheets.html)
 
 ## Get it
 
