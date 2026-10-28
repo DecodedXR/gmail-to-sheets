@@ -1,11 +1,11 @@
 ---
-title: "Gmail to Google Sheets without Zapier: no task limits, no subscription"
+title: "Gmail to Google Sheets without Zapier: no per-task pricing, no subscription"
 description: Copy Gmail emails into Google Sheets automatically, with fields pulled from the body and attachments saved to Drive, without paying Zapier per task. Free and one-time options compared.
 image: https://decodedxr.github.io/gmail-to-sheets/assets/cover.png
 ---
 {% raw %}
 
-# Gmail to Google Sheets without Zapier: no task limits, no subscription
+# Gmail to Google Sheets without Zapier: no per-task pricing, no subscription
 
 "New Gmail email → add a row in Google Sheets" is one of the most common Zapier automations. It works, but Zapier charges per task, and every email copied is a task. From [Zapier's pricing page](https://zapier.com/pricing) (checked October 2026):
 
@@ -19,10 +19,10 @@ If the emails are in Gmail and the destination is Google Sheets, both ends are a
 | | Zapier | Free Gmail to Sheets | Gmail to Sheets Pro |
 |---|---|---|---|
 | Price | Free up to 100 emails a month, then monthly | Free | $15 once |
-| Emails per month | Capped by plan | No cap beyond Gmail's script quotas | No cap beyond Gmail's script quotas |
-| Pull fields out of the body | Needs a formatter or parser step | Yes: name a column `Order number` and it finds "Order number: A-1042"; `/regex/` columns for the rest | Same |
+| Emails per month | Capped by plan | No monthly cap (100 conversations per hourly run; a backlog catches up) | No monthly cap |
+| Pull fields out of the body | A Formatter step (paid multi-step Zap) or forwarding to Email Parser by Zapier | Yes: name a column `Order number` and it finds "Order number: A-1042"; `/regex/` columns for the rest | Same |
 | Several kinds of email | One Zap each | One Gmail search | One Gmail search per tab |
-| Attachments saved to Drive | Extra Zap step (multi-step needs a paid plan) | No | Yes, with links in the row |
+| Attachments saved to Drive | A separate Zap, or a three-step Zap (paid) to link the file in the row | No | Yes, with links in the row |
 | How often | Every 15 min (free), 2 min (Pro) | Every hour | Every 5 to 60 minutes |
 | Mark read or archive after | Extra step | No (adds a Gmail label) | Optional |
 | Who runs it | Zapier's service | Your own code, in your own Google account | Your own code, in your own Google account |
